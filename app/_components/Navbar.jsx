@@ -13,7 +13,7 @@ export const Navbar = () => {
             <Link className="duration-200 hover:text-[#672ad1] text-xl" href="#">Corporate</Link>
             <Link className="duration-200 hover:text-[#672ad1] text-xl" href="#">About</Link>
             <Link className="duration-200 hover:text-[#672ad1] text-xl" href="#">New AI Tools</Link>
-            <Link className="duration-200 hover:text-[#672ad1] text-xl" href="#">Log In</Link>
+            <Link className="duration-200 hover:text-[#672ad1] text-xl font-bold" href="#">Log In</Link>
           </div>
         </div>
       </nav>
