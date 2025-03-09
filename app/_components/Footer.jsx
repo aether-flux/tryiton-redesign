@@ -2,7 +2,7 @@ import { Instagram, Linkedin, Twitter, Youtube } from "lucide-react"
 
 export const Footer = () => {
   return (
-    <footer className="px-32 py-12 border-t border-t-[#9982bf88] flex justify-between">
+    <footer className="bg-[#fff] px-32 py-12 border-t border-t-[#9982bf88] flex justify-between">
       <div>
         <img src="/tryitonlogo.png" alt="logo image" className="w-[150px]" />
         <div className="flex items-center gap-4 mt-4">
