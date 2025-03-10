@@ -9,7 +9,7 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="flex justify-center w-screen my-8 px-8 sticky top-[2%] left-[50%] z-[999]">
+    <nav className="flex justify-center w-screen my-8 px-4 md:px-8 sticky top-[2%] left-[50%] z-[999]">
       <div 
         className={`opacity-95 flex flex-col md:flex-row items-center justify-between w-full max-w-5xl bg-[#f0edf5] rounded-full px-8 md:px-20 py-4 md:py-6 shadow-[0px_3px_15px_rgba(0,0,0,0.1)] 
         transition-all duration-300 ${menuOpen ? "py-10 rounded-xl" : ""}`}
@@ -17,7 +17,7 @@ export const Navbar = () => {
         {/* Top Row: Logo & Menu Button */}
         <div className="flex items-center justify-between w-full md:w-auto">
           <a href="#">
-            <Image src="/tryitonlogo.png" width={120} height={70} alt="logo image" />
+            <Image src="/tryitonlogo.png" width={120} height={70} alt="logo image" className="w-[80px] md:w-full" />
           </a>
 
           {/* Menu Button */}
