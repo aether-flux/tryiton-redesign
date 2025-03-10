@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 export const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);  // Check if navbar is open or closed (small screens)
 
   return (
     <nav className="flex justify-center w-screen my-8 px-4 md:px-8 sticky top-[2%] left-[50%] z-[999]">
